@@ -21,3 +21,17 @@
 	- Leaders Board API
 
 	Note: Request and responses of all above API's are in API Collection(Postman) folder.
+
+
+
+#Database: MongoDB is used as Database. There are total 5 collections
+
+- Collections: 
+	- Users
+	- Question
+	- Answer
+	- User Answers
+	- User Questions
+
+	Note: All collection structure is in Applicaion/models folder inside application. You have to upload all the questions ans answers json in mongodb database to access test, json is available in DB Collection folder. You can also insert questions and answers in DB Using Add Qestions and Add Answers API.
+
