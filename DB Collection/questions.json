@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "5fbc3253c87a4d2eece1a0d2"
+  },
+  "status": 0,
+  "question": "REPL stands for.",
+  "createdAt": {
+    "$date": "2020-11-23T22:06:11.559Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:06:11.559Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc3277c87a4d2eece1a0d3"
+  },
+  "status": 0,
+  "question": "Which of the following code converts a buffer buf to JSON object?",
+  "createdAt": {
+    "$date": "2020-11-23T22:06:47.738Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:06:47.738Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc328ac87a4d2eece1a0d4"
+  },
+  "status": 0,
+  "question": "Which of the following is true about fs module of Node?",
+  "createdAt": {
+    "$date": "2020-11-23T22:07:06.054Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:07:06.054Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc329ac87a4d2eece1a0d5"
+  },
+  "status": 0,
+  "question": "Which method of fs module is used to remove a directory?",
+  "createdAt": {
+    "$date": "2020-11-23T22:07:22.625Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:07:22.625Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc32a6c87a4d2eece1a0d6"
+  },
+  "status": 0,
+  "question": " Which of the following code prints current directory?",
+  "createdAt": {
+    "$date": "2020-11-23T22:07:34.969Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:07:34.969Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "063edd3c-504f-4795-8960-937f161f3f7b",
+		"name": "Exam System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/v1/registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rishabh Porwal\",\r\n    \"email\": \"rishabhporwal925@gmail.com\",\r\n    \"password\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/registration",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"rishabhporwal95@gmail.com\",\r\n    \"password\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/addquestion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \" Which of the following code prints current directory?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/addquestion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"addquestion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/addanswer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"questionid\": \"5fbc32a6c87a4d2eece1a0d6\",\r\n      \"option1\": \"console.log('Current directory: ' + process.cwd());\",\r\n      \"option2\": \"console.log('Current directory: ' + console.cwd());\",\r\n      \"option3\": \"console.log('Current directory: ' + process.currenWorkingDirectory());\",\r\n      \"option4\": \"None of the above.\",\r\n      \"correctanswer\": \"option1\",\r\n      \"points\": \"5\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/addanswer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"addanswer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/submitanswer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpc2hhYmhwb3J3YWw5NUBnbWFpbC5jb20iLCJ1c2VyaWQiOiI1ZmJjMmY1Y2JhMzVhODQ1Y2NhYmMxZjMiLCJpYXQiOjE2MDYyNjI5MjAsImV4cCI6MTYwNjM0OTMyMH0.WOAOuWGxR1e9ISeOuyZHAWCWGCk4ThBK0haTA43kHDc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"questionid\": \"5fbc329ac87a4d2eece1a0d5\",\r\n      \"useranswer\": \"option1\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/submitanswer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"submitanswer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/getquestion",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpc2hhYmhwb3J3YWw5NUBnbWFpbC5jb20iLCJ1c2VyaWQiOiI1ZmJjMmY1Y2JhMzVhODQ1Y2NhYmMxZjMiLCJpYXQiOjE2MDYyNjI5MjAsImV4cCI6MTYwNjM0OTMyMH0.WOAOuWGxR1e9ISeOuyZHAWCWGCk4ThBK0haTA43kHDc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/v1/getquestion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"getquestion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/leadersboard",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpc2hhYmhAZ21haWwuY29tIiwidXNlcmlkIjoiNWZiYzJjOWY1ZjFmN2IyMjNjM2EyZGEzIiwiaWF0IjoxNjA2MjExODk0LCJleHAiOjE2MDYyOTgyOTR9.Bjh2v3_vbquO9lf3tbwtFg3oXc9JneOakKptW7ZYy10",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/v1/leadersboard",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"leadersboard"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

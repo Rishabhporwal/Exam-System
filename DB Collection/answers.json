@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "5fbc3651003d1c4c64d803ac"
+  },
+  "status": 0,
+  "questionid": {
+    "$oid": "5fbc3253c87a4d2eece1a0d2"
+  },
+  "option1": "Research Eval Program Learn",
+  "option2": "Read Eval Print Loop",
+  "option3": "Read Earn Point Learn",
+  "option4": "Read Eval Point Loop",
+  "correctanswer": "option2",
+  "points": 5,
+  "createdAt": {
+    "$date": "2020-11-23T22:23:13.272Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:23:13.272Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc36d25d48421614661e00"
+  },
+  "status": 0,
+  "questionid": {
+    "$oid": "5fbc3277c87a4d2eece1a0d3"
+  },
+  "option1": "buf.toJSON()",
+  "option2": "buf.json()",
+  "option3": "buf.covertToJson()",
+  "option4": "buf.jsonify()",
+  "correctanswer": "option1",
+  "points": 5,
+  "createdAt": {
+    "$date": "2020-11-23T22:25:22.840Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:25:22.840Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc37415d48421614661e01"
+  },
+  "status": 0,
+  "questionid": {
+    "$oid": "5fbc328ac87a4d2eece1a0d4"
+  },
+  "option1": "Every method in fs module have synchronous as well as asynchronous form.",
+  "option2": "Asynchronous methods of fs module take last parameter as completion function callback and first parameter of the callback function as error.",
+  "option3": "Both of the above.",
+  "option4": "None of the above.",
+  "correctanswer": "option3",
+  "points": 5,
+  "createdAt": {
+    "$date": "2020-11-23T22:27:13.329Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:27:13.329Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc37b95d48421614661e02"
+  },
+  "status": 0,
+  "questionid": {
+    "$oid": "5fbc329ac87a4d2eece1a0d5"
+  },
+  "option1": "fs.deleteDirectory(path[, mode], callback)",
+  "option2": "fs.rmdir(path, callback)",
+  "option3": "fs.removeDirectory(path[, mode], callback)",
+  "option4": "None of the above.",
+  "correctanswer": "option2",
+  "points": 5,
+  "createdAt": {
+    "$date": "2020-11-23T22:29:13.273Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:29:13.273Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fbc38195d48421614661e03"
+  },
+  "status": 0,
+  "questionid": {
+    "$oid": "5fbc32a6c87a4d2eece1a0d6"
+  },
+  "option1": "console.log('Current directory: ' + process.cwd());",
+  "option2": "console.log('Current directory: ' + console.cwd());",
+  "option3": "console.log('Current directory: ' + process.currenWorkingDirectory());",
+  "option4": "None of the above.",
+  "correctanswer": "option1",
+  "points": 5,
+  "createdAt": {
+    "$date": "2020-11-23T22:30:49.448Z"
+  },
+  "updatedAt": {
+    "$date": "2020-11-23T22:30:49.448Z"
+  },
+  "__v": 0
+}]
