@@ -1,4 +1,4 @@
-#Instructions for accessing application:
+# Instructions for accessing application:
 
 - Steps for running application
 	- clone git repository
@@ -10,7 +10,7 @@
 
 
 
-#API: There are total 7 API's
+# API: There are total 7 API's
 
 	- Signup API
 	- Login API
@@ -24,7 +24,7 @@
 
 
 
-#Database: MongoDB is used as Database. There are total 5 collections
+# Database: MongoDB is used as Database. There are total 5 collections
 
 - Collections: 
 	- Users
